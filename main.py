@@ -1,4 +1,4 @@
-# HI, world
+""" # HI, world
 print("HI, world")
 
 # result:  7 15 .
@@ -30,3 +30,17 @@ print("round result:", round(5/2))
 a = input("Укажите свой возраст: ")
 
 print(a)
+
+# удалить переменную через del
+
+del a  """
+
+
+number = 5 # int
+digit = 4.2123 # float
+word = 'WORD' # string
+boolean = True # bool
+
+#перевод значений в другой тип данных
+print(int(digit)) #4
+print(str(number))#"5"
